@@ -1,4 +1,4 @@
-module RAM_lab5(clock, cs, wr_e, oe, addr, data);
+module RAM(clock, cs, wr_e, oe, addr, data);
 input clock, cs, wr_e, oe;
 input [6:0]addr;
 inout reg [7:0]data;
